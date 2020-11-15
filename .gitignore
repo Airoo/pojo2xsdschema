@@ -1,0 +1,10 @@
+# Maven derived files #
+target/
+
+# Gradle derived files #
+build/
+.gradle
+
+# IntelliJ files #
+.idea
+*.iml
