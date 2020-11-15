@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>pojo2xsdschema</artifactId>
+        <groupId>com.pojo2xsdschema</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>pojo2xsdschema-maven-plugin</artifactId>
+
+    <packaging>maven-plugin</packaging>
+
+    <name>pojo2xsdschema-maven-plugin</name>
+    <url>https://github.com/Airoo/pojo2xsdschema</url>
+</project>

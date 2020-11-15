@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pojo2xsdschema</groupId>
+    <artifactId>pojo2xsdschema</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+    <name>pojo2xsdschema</name>
+    <description>Generate xsd schema from Java pogo's with JAXB annotations</description>
+    <url>https://github.com/Airoo/pojo2xsdschema</url>
+
+    <modules>
+        <module>pojo2xsdschema-core</module>
+        <module>pojo2xsdschema-maven-plugin</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <name>Konstantin Trotseno</name>
+            <email>che.kt@mail.ru</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/Airoo/pojo2xsdschema</url>
+        <connection>scm:git:git@github.com:Airoo/pojo2xsdschema.git</connection>
+        <developerConnection>scm:git:git@github.com:Airoo/pojo2xsdschema.git</developerConnection>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
+
+</project>
